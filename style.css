@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: large;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 10vh;
+}
+
+.circle {
+  width: 7vh;
+  height: 7vh;
+  background-color: beige;
+  border: 1px solid gray;
+  border-radius: 50%;
+  margin: 3vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 10vh auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.score {
+  margin: 10vh auto;
+  padding: 3vh;
+  text-align: center;
+  font-size: medium;
+  border: 1px solid gray;
+  border-radius: 10vh;
+  width: 46vh;
+}/*# sourceMappingURL=style.css.map */
